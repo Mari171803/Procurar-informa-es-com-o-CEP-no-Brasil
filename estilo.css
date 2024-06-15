@@ -1,0 +1,72 @@
+*{
+    margin: 5;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 44px;
+    margin-top: 40px;
+}
+
+main{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input, button{
+    width: 100%;
+    text-align: center;
+}
+
+input[type="text"]{
+    font-size: 24px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mensagem{
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button{
+    background-color: #9f86c0;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-bottom: 32px;
+    padding-block: 8px;
+}
+
+button:hover{
+    background-color: #5e548e;
+}
+
+.informacoes{
+    font-size: 24px;
+}
+
+.sucesso{
+    color: #c8b6ff;
+}
+
+.erro{
+    color: #e5383b;
+}
